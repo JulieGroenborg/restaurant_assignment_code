@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Resturant KEA</title>
+</head>
+<!-- Is it the right way to use <section></section>? -->
+<body>
+    <header>
+        <h1>Restaurant KEA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p><i>Guldbergsgade 29N 2200 Copenhagen</i>
+            </p>
+            <p><i>Phone no.: <a href="tel:20825370">20 82 53 70</a></i></p>
+            <p><i>E-mail: <a href="mailto:info@restaurantkea.dk">info@restaurantkea.dk</a></i></p>
+        </section>
+            <img src="restaurant_assets/img/map.jpg"  alt="">
+        <section>
+           <form>
+               <fieldset>
+                <legend>Contact form</legend>
+                <div>
+                    <label for="name">Full name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="phone">Phone no.</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+                <div>
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" name="e-mail" id="e-mail">
+                </div>
+                <div>
+                    <label for="persons">Persons</label>
+                    <input value="2" type="number" name="persons" id="persons">
+                </div>
+                <div>
+                    <label for="datetime">Date and time</label>
+                    <input type="datetime-local" name="datetime" id="datetime">
+                </div>
+                <div>
+                    <label for="info">Further information</label>
+                    <div><textarea name="info" id="info"></textarea></div>
+                </div>                
+               </fieldset>
+           </form>
+        </section>
+    </main>
+    <footer>&copy; 2023 KEA Development</footer>
+</body>
+</html>
